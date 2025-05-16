@@ -12,7 +12,7 @@ This repository contains a full installation and uninstallation script for setti
 Run the following command in your terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/oviwrite-macos-installer/main/install_oviwrite_macos.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ezekielcroe/oviwrite-macos-installer/main/install_oviwrite_macos.sh | bash
 ```
 
 This will install:
@@ -32,7 +32,7 @@ This will install:
 To fully remove OVIWrite and related packages:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/oviwrite-macos-installer/main/uninstall_oviwrite_macos.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ezekielcroe/oviwrite-macos-installer/main/uninstall_oviwrite_macos.sh | bash
 ```
 
 Removes:
