@@ -20,14 +20,12 @@ brew install neovim git pandoc wget yarn fzf ripgrep python node
 echo "🐍 Installing Python support for Neovim (PEP 668 workaround)..."
 pip3 install --user --break-system-packages pynvim neovim-remote
 
-# Add pip user bin to PATH if not already
 echo 'export PATH="$HOME/Library/Python/3.*/bin:$PATH"' >> ~/.zprofile
 source ~/.zprofile
 
 echo "📚 Installing BasicTeX, LaTeX dependencies, and Skim PDF Viewer..."
 brew install --cask basictex skim
 
-# Ensure TeX binaries are in PATH
 echo 'export PATH="/Library/TeX/texbin:$PATH"' >> ~/.zprofile
 source ~/.zprofile
 
@@ -36,7 +34,6 @@ sudo tlmgr update --self --all
 sudo tlmgr install collection-fontsrecommended latexmk amsmath hyperref pdftex
 
 echo "🔠 Installing Nerd Font (Hack)..."
-brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 
 echo "🖥️ Installing Neovide GUI..."
