@@ -7,7 +7,7 @@ dependencies = {
   "3rd/image.nvim",
  },
  opts = true,
- ft = "markdown",
+ ft = {},
 }
 
 
