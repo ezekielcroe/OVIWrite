@@ -17,10 +17,10 @@ brew update
 echo "📦 Installing core packages..."
 brew install neovim git pandoc wget yarn fzf ripgrep python node
 
-echo "🐍 Installing Python support for Neovim..."
-pip3 install --user pynvim neovim-remote
+echo "🐍 Installing Python support for Neovim (PEP 668 workaround)..."
+pip3 install --user --break-system-packages pynvim neovim-remote
 
-# Ensure Python user bin path is in PATH
+# Add pip user bin to PATH if not already
 echo 'export PATH="$HOME/Library/Python/3.*/bin:$PATH"' >> ~/.zprofile
 source ~/.zprofile
 
