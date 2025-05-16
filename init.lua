@@ -7,7 +7,7 @@ if vim.g.neovide then
     -- Put anything you want to happen only in Neovide here
 
    vim.o.guifont = "Hack Nerd Font Mono:h18" -- text below applies for VimScript
-   vim.g.neovide_transparency = 0.8
+   vim.g.neovide_opacity = 0.95
    vim.g.neovide_floating_blur_amount_x = 2.0
 vim.g.neovide_floating_blur_amount_y = 2.0
   vim.g.neovide_background_color = 0xff1a1b26
@@ -27,7 +27,7 @@ vim.api.nvim_set_keymap('', '<D-v>', '+p<CR>', { noremap = true, silent = true})
 vim.api.nvim_set_keymap('!', '<D-v>', '<C-R>+', { noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<D-v>', '<C-R>+', { noremap = true, silent = true})
 vim.api.nvim_set_keymap('v', '<D-v>', '<C-R>+', { noremap = true, silent = true})
-vim.api.nvim_call_function("codeium#GetStatusString", {})
+-- vim.api.nvim_call_function("codeium#GetStatusString", {})
 
 
 -- -- This fowr Skim and Latex syncing
