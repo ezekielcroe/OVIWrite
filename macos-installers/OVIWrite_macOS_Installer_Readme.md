@@ -3,7 +3,7 @@
 This repository contains a full installation and uninstallation script for setting up [OVIWrite](https://github.com/MiragianCycle/OVIWrite) — a Neovim-based writing environment — on **macOS (Apple Silicon only)**.
 
 > 🧠 OVIWrite was created by **Theena Kumaragurunathan**.  
-> This installer was adapted by a community contributor to improve beginner accessibility and resolve some macOS-specific issues.
+> This installer was adapted by Yeo Zhi Zheng to improve beginner accessibility and resolve some macOS-specific issues. It is also a small project for me to learn more about Neovim, OVIwrite, and Github.
 
 ---
 
@@ -12,7 +12,7 @@ This repository contains a full installation and uninstallation script for setti
 Run the following command in your terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/oviwrite-macos-installer/main/install_oviwrite_macos.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ezekielcroe/OVIWrite/main/macos-installers/install_oviwrite.sh | bash
 ```
 
 This will install:
@@ -32,7 +32,7 @@ This will install:
 To fully remove OVIWrite and related packages:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/oviwrite-macos-installer/main/uninstall_oviwrite_macos.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ezekielcroe/OVIWrite/main/macos-installers/uninstall_oviwrite_macos.sh | bash
 ```
 
 Removes:
